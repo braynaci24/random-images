@@ -27,6 +27,7 @@ $(document).ready(function(){
         for(let i = 0; i < $('.favorites-container').length; i++){
           $('.favorites-container').append(`<img  class="fav-images" src="${imageSrc}"/>`)
         }
+        $(this).parent().parent().remove();
      })
     
 })
