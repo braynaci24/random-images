@@ -1,0 +1,30 @@
+body {
+    background: currentColor;
+}
+.box-random-image {
+  width: 100%;
+    height: 100%;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    margin: 15px;
+}
+.box-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-style{
+    font-size: 30px;
+}
+.delete {
+    color: rgb(216, 34, 34);
+}
+.check {
+    color: rgb(48, 204, 48);
+}
