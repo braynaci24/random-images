@@ -15,7 +15,7 @@ $(document).ready(function(){
      })
 
      $('.fav').click(function(){
-         $('.favorites-container').show();
+      $('.favorites-container').show();
      })
 
      $('.fav-container-close-icon').click(function(){
